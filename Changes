@@ -1,0 +1,5 @@
+Revision history for Perl extension JavaScript::Librarian
+
+0.01 Sun Apr  2 2005
+	- original version
+	- Doesn't contain any usable ::Library classes yet
