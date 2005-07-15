@@ -1,5 +1,5 @@
 name: JavaScript-Librarian
-version: 0.01
+version: 0.02
 abstract: Load and use libraries of JavaScript packages
 author: Adam Kennedy<adam@ali.as>
 license: unknown
@@ -12,7 +12,7 @@ requires:
   URI: 1.33
   Clone: 0.13
   Algorithm::Dependency: 1.02
-  Param::Coerce: 0.06
+  Params::Coerce: 0.06
 no_index:
   directory:
     - inc

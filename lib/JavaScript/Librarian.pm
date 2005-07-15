@@ -27,18 +27,18 @@ your own modules. See the source code for more documentation.
 =cut
 
 use strict;
-use URI ();
-use Clone ();
-use File::Spec::Unix ();
-use Algorithm::Dependency ();
-use JavaScript::Librarian::Book ();
+use URI                            ();
+use Clone                          ();
+use File::Spec::Unix               ();
+use Algorithm::Dependency          ();
+use JavaScript::Librarian::Book    ();
 use JavaScript::Librarian::Library ();
-use Param::Coerce '_URI'     => 'URI';
-use Param::Coerce '_Library' => 'JavaScript::Librarian::Library';
+use Params::Coerce '_URI'     => 'URI';
+use Params::Coerce '_Library' => 'JavaScript::Librarian::Library';
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.01';
+	$VERSION = '0.02';
 }
 
 
