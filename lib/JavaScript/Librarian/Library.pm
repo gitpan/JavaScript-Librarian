@@ -5,7 +5,7 @@ use base 'Algorithm::Dependency::Source';
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.02';
+	$VERSION = '0.03';
 }
 
 
@@ -26,8 +26,8 @@ sub load {
 
 	# Check that all the items are Book objects
 	foreach my $Book ( $self->items ) {
-		next if UNIVERSAL::isa($Book, 'JavaScript::Library::Book');
-		die "$class\::_load_item_list returned something that was not an Algorithm::Dependency::Item";
+		next if UNIVERSAL::isa($Book, 'JavaScript::Librarian::Book');
+		die "$class\::_load_item_list returned something that was not a JavaScript::Library::Book";
 	}
 
 	1;

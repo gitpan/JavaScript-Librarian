@@ -1,5 +1,8 @@
 Revision history for Perl extension JavaScript::Librarian
 
+0.03 Tue Jul 26 2005
+	- Fixed a small validation bug
+
 0.02 Fri Jul 13 2005
 	- Updating to use Params::Coerce instead of Param::Coerce
 
