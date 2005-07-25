@@ -1,5 +1,9 @@
 Revision history for Perl extension JavaScript::Librarian
 
+0.04 Tue Jul 26 2005
+	- use Algorithm::Dependency::Ordered, not the base one
+	- Add missing ->resolver accessor
+
 0.03 Tue Jul 26 2005
 	- Fixed a small validation bug
 

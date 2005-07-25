@@ -30,7 +30,7 @@ use strict;
 use URI                            ();
 use Clone                          ();
 use File::Spec::Unix               ();
-use Algorithm::Dependency          ();
+use Algorithm::Dependency::Ordered ();
 use JavaScript::Librarian::Book    ();
 use JavaScript::Librarian::Library ();
 use Params::Coerce '_URI'     => 'URI';
@@ -38,7 +38,7 @@ use Params::Coerce '_Library' => 'JavaScript::Librarian::Library';
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.03';
+	$VERSION = '0.04';
 }
 
 
@@ -85,6 +85,11 @@ sub base {
 sub library {
 	$_[0]->{library};
 }
+
+sub resolver {
+	$_[0]->{resolver};
+}
+
 
 
 
