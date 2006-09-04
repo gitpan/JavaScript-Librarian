@@ -1,19 +1,19 @@
-name: JavaScript-Librarian
-version: 0.04
 abstract: Load and use libraries of JavaScript packages
-author: Adam Kennedy<adam@ali.as>
-license: unknown
-distribution_type: module
-build_requires:
+author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
+build_requires: 
   Test::More: 0.47
-requires:
-  perl: 5.005
-  File::Spec: 0.82
-  URI: 1.33
-  Clone: 0.13
-  Algorithm::Dependency: 1.02
-  Params::Coerce: 0.06
-no_index:
-  directory:
+distribution_type: module
+generated_by: Module::Install version 0.63
+license: perl
+name: JavaScript-Librarian
+no_index: 
+  directory: 
     - inc
-generated_by: Module::Install version 0.36
+    - t
+requires: 
+  Algorithm::Dependency: 1.02
+  Clone: 0.13
+  File::Spec: 0.82
+  Params::Coerce: 0.06
+  URI: 1.33
+version: 1.00

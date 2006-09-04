@@ -38,7 +38,7 @@ use Params::Coerce '_Library' => 'JavaScript::Librarian::Library';
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.04';
+	$VERSION = '1.00';
 }
 
 
@@ -164,7 +164,7 @@ For other issues, contact the maintainer
 
 =head1 AUTHORS
 
-Adam Kennedy (Maintainer), L<http://ali.as/>, cpan@ali.as
+Adam Kennedy E<lt>cpan@ali.asE<gt>, L<http://ali.as/>
 
 =head1 COPYRIGHT
 
